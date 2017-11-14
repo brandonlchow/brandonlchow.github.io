@@ -55,7 +55,7 @@ body {
 	text-align: center;
 	line-height: 40px;
 	font-size: 1vw;
-	font-weight: 900;
+	/*font-weight: 900;*/
 	letter-spacing: 1.5px;
 	float: left;
 	background-color: #eeeeee;
@@ -129,6 +129,10 @@ body {
 	opacity: 0.7;
 	transition: 0.3s;
 	cursor: pointer;
+}
+
+a {
+	color: black;
 }
 
 a:visited {
