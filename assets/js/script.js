@@ -10,9 +10,4 @@ $(document).ready(function() {
 			$("#preview-container").css("background-image", "url('assets/img/gaku_1_crop.jpg')");
 		}
 	})
-
-	// , function() {
-	// 	$("#preview-container").css("background-image", "url('assets/img/aco_1_crop.jpg')")
-	// }
-
 });
