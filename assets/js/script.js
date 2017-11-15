@@ -9,5 +9,17 @@ $(document).ready(function() {
 		} else if ($(this).is('#gaku')) {
 			$("#preview-container").css("background-image", "url('assets/img/gaku_1_crop.jpg')");
 		}
-	})
+	});
+
+	$("#about-button").click(function() {
+		$("#about").fadeIn();
+	});
+
+	$("#shadow").click(function() {
+		$("#about").fadeOut();
+	});
+
+	$("#exit-button").click(function() {
+		$("#about").fadeOut();
+	});
 });
