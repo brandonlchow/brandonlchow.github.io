@@ -64,7 +64,7 @@ body {
 	border-left: 4px double;
 	border-right: 4px double;
 	border-color: #ff471a;
-	border-radius: 15px;
+	border-radius: 5px;
 	height: 40px;
 	width: 30%;
 	transform: translate(29%, 130%);
@@ -74,6 +74,7 @@ body {
 
 .mid-button:hover {
 	color: #f7f7f7;
+	font-size: 1.1vw;
 	background-color: #ff471a;
 	opacity: 0.7;
 	transition: 0.3s;
@@ -114,6 +115,7 @@ body {
 
 .brow-button:hover {
 	color: #f7f7f7;
+	font-size: 1.2vw;
 	background-color: #ff471a;
 	opacity: 0.7;
 	transition: 0.3s;
@@ -138,15 +140,17 @@ a:visited {
 	height: 100%;
 	background-color: #f4f4f4;
 	cursor: pointer;
+	transition: 0.7s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.1s;	
 }
 
 #preview-container {
-	opacity: 0.92;
+	opacity: 0.95;
 	height: 100%;
 	transition: 0.3s;
 	background-image: url("../img/aco_1_crop.jpg");
 	background-size: cover;
-
 }
 
 #preview-container:hover {
@@ -154,6 +158,39 @@ a:visited {
 	transition: 0.3s;
 }
 
+.desc {
+	transform: translateX(-123%);
+	transition: 0.7s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.1s;
+}
+
+/*--------------------------DESCRIPTION--------------------------*/
+
+#description {
+	width: 56%;
+	height: 100%;
+	position: relative;
+	right: -44.5%;
+	/*background-color: black;*/
+	animation: slideUp 0.5s ease-in-out 0.1s forwards;
+}
+
+@keyframes slideUp {
+	from {
+		opacity: 0;
+		transform: translateY(100%);
+	} to {
+		transform: translateY(0%);
+		opacity: 1;
+	}
+}
+
+#description-exit {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
 
 /*--------------------------ABOUT--------------------------*/
 #about {
@@ -182,13 +219,25 @@ a:visited {
 	animation: pop-up 0.4s linear 0s forwards;
 }
 
-#exit-button {
+#about-exit {
 	position: absolute;
-	max-width: 40px;
-	max-height: 40px;
-	cursor: pointer;
 	top: 15px;
 	right: 15px;
+}
+
+.exit {
+	cursor: pointer;
+	max-width: 40px;
+	max-height: 40px;
+	opacity: 0.7;
+	transform: scale(0.9);
+	transition: 0.2s;
+}
+
+.exit:hover {
+	opacity: 1;
+	transform: scale(1);
+	transition: 0.2s;
 }
 
 #about-header {

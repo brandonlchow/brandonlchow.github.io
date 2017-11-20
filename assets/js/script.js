@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+/*--------------MAIN BUTTONS--------------*/
+
 	$(".mid-button").hover(function() {
 		if ($(this).is('#aco')) {
 			$("#preview-container").css("background-image", "url('assets/img/aco_1_crop.jpg')");
@@ -11,6 +14,39 @@ $(document).ready(function() {
 		}
 	});
 
+	transition_in = () => {
+		$("#index").fadeOut();
+		$("#description").fadeIn();
+		// $("#preview").css("animation", "slide 0.8s ease-in 0.2s forwards");
+		$("#preview").addClass("desc");
+	}
+
+	transition_out = () => {
+		$("#preview").removeClass("desc");
+			// $("#preview").css("animation", "reverse-slide 0.8s ease-in 0.2s forwards");
+		$("#index").fadeIn();
+		$("#description").fadeOut();
+	}
+
+	$(".mid-button").click(function() {
+		transition_in();
+	});
+
+	$("#preview").click(function() {
+		if ($(this).hasClass("desc")) {
+			transition_out();
+		} else {
+			transition_in();
+		}
+	});
+
+/*--------------DESCRIPTION--------------*/
+	$("#description-exit").click(function() {
+		transition_out();
+	})
+
+/*--------------ABOUT--------------*/
+
 	$("#about-button").click(function() {
 		$("#about").fadeIn();
 	});
@@ -19,7 +55,8 @@ $(document).ready(function() {
 		$("#about").fadeOut();
 	});
 
-	$("#exit-button").click(function() {
+	$("#about-exit").click(function() {
 		$("#about").fadeOut();
 	});
+
 });
