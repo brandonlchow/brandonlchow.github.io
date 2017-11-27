@@ -262,10 +262,10 @@ a:visited {
 	padding-left: 2vw;
 	padding-right: 2vw;
 	padding-top: 1.5vh;
-	/*padding-bottom: 1.5vh;*/
+	padding-bottom: 1.5vh;
 	line-height: 200%;
 	position: relative;
-	font-size: 1.9vmin;
+	font-size: 1.8vmin;
 	letter-spacing: 1px;
 	font-family: 'Raleway', sans-serif;
 	/*background-color: grey;*/
