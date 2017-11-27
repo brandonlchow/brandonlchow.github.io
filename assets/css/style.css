@@ -122,6 +122,16 @@ body {
 	cursor: pointer;
 }
 
+#easter-egg {
+	display: none;
+	position: absolute;
+	bottom: 30%;
+	height: 75px;
+	opacity: 0.9;
+	/*background-color: black;*/
+	left: 40%;
+}
+
 a {
 	color: inherit;
 	border-color: #ff471a;

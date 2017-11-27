@@ -44,8 +44,25 @@ $(document).ready(function() {
 		$(".second").css("background-image", "url('assets/img/aco_3_crop.png')");
 		$(".third").css("background-image", "url('assets/img/aco_4_crop.png')");
 		$(".profile-name").text("Aco");
+		
 		$(".profile-handle").text("@acoshiba");
+
 		$(".quote").text('"Where did the treat go?"');
+		$(".profile-name").typeIt({
+			speed: 75,
+			startDelay: 900,
+			cursor: false
+		});
+		$(".profile-handle").typeIt({
+			speed: 50,
+			startDelay: 1175,
+			cursor: false
+		});
+		$(".quote").typeIt({
+			speed: 35,
+			startDelay: 1600,
+			cursor: false
+		});
 		$(".description-text").text("Aco is a 4 year old black shiba inu from \
 		 Hokkaido, Japan. She is one of the fluffiest shibas around, with almost the \
 		 perfect shape and the cutest paws. She's a quiet dog, but is always around \
@@ -69,6 +86,21 @@ $(document).ready(function() {
 		$(".profile-name").text("Maru");
 		$(".profile-handle").text("@marutaro");
 		$(".quote").text('"The smiliest dog in Japan"');
+		$(".profile-name").typeIt({
+			speed: 75,
+			startDelay: 900,
+			cursor: false
+		});
+		$(".profile-handle").typeIt({
+			speed: 50,
+			startDelay: 1250,
+			cursor: false
+		});
+		$(".quote").typeIt({
+			speed: 35,
+			startDelay: 1750,
+			cursor: false
+		});
 		$(".description-text").text("Maru is a 10 year old shiba inu from Japan. \
 			Maru is no doubt the most popular shiba inu on Instagram, and in fact \
 			Japan's second most popular Instagram account. He has been featured in \
@@ -94,6 +126,21 @@ $(document).ready(function() {
 		$(".profile-name").text("Kotetsu");
 		$(".profile-handle").text("@ganchi_with_kotetsu");
 		$(".quote").text('"It\'s so ugly that it\'s cute!"');
+		$(".profile-name").typeIt({
+			speed: 50,
+			startDelay: 900,
+			cursor: false
+		});
+		$(".profile-handle").typeIt({
+			speed: 35,
+			startDelay: 1200,
+			cursor: false
+		});
+		$(".quote").typeIt({
+			speed: 35,
+			startDelay: 1825,
+			cursor: false
+		});
 		$(".description-text").text("Kotetsu's age isn't listed on his social media \
 			or maybe Brandon just can't read Japanese, but he's yet another shiba from \
 			Japan! Although least popular of the four showcased shibas, Kotetsu's owner, Ganchi, \
@@ -117,6 +164,21 @@ $(document).ready(function() {
 		$(".profile-name").text("Gaku");
 		$(".profile-handle").text("@shibainu.gaku");
 		$(".quote").text('"This is the ultimate brotherly love"');
+		$(".profile-name").typeIt({
+			speed: 50,
+			startDelay: 900,
+			cursor: false
+		});
+		$(".profile-handle").typeIt({
+			speed: 45,
+			startDelay: 1200,
+			cursor: false
+		});
+		$(".quote").typeIt({
+			speed: 25,
+			startDelay: 1850,
+			cursor: false
+		});
 		$(".description-text").text("Gaku is a 5 year old shiba inu with two brothers: \
 			the cats Rinrin and Torajiro! For anyone who enjoys seeing dogs and cats get \
 			along, this account is perfect. Although there are many shibas on instagram \
@@ -208,5 +270,12 @@ $(document).ready(function() {
 	$("#about-exit").click(function() {
 		$("#about").fadeOut();
 	});
+
+	$(".contact").click(function() {
+		$("#easter-egg").fadeIn(1000);
+		setTimeout(function() {
+			$("#easter-egg").fadeOut(500);
+		}, 2500);
+	})
 
 });
