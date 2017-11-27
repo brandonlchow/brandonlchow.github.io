@@ -55,6 +55,10 @@ $(document).ready(function() {
 		 aesthetic photos from around Japan! Without a doubt, Aco is definitely \
 		 Brandon's favorite shiba inu. To this day, he is still waiting for \
 		 Aco's bork reveal.");
+		setTimeout(function() {
+			$("#preview-container").css("background-image", "url('assets/img/aco_1_crop.png')");
+		}, 500);
+		
 	}
 
 	maru = () => {
@@ -74,6 +78,10 @@ $(document).ready(function() {
 			earthquake and tsunami in hopes of \"easing people's anxiety, even a\
 			little bit.\" Today, Maru lives a luxurious life full of naps, delicious \
 			treats, and beautiful surroundings.");
+
+		setTimeout(function() {
+			$("#preview-container").css("background-image", "url('assets/img/maru_1_crop.png')");
+		}, 500);
 	}
 
 
@@ -95,6 +103,10 @@ $(document).ready(function() {
 			goofy smile and it's not hard to tell that Kotetsu is a very happy dog. \
 			Compared to other shibas, he's a bit \"uglier,\" as his owner puts it, but \
 			it's what makes him cute!");
+
+		setTimeout(function() {
+			$("#preview-container").css("background-image", "url('assets/img/kotetsu_1_crop.jpg')");
+		}, 500);
 	}
 
 	gaku = () => {
@@ -113,6 +125,10 @@ $(document).ready(function() {
 			sunlight. Most dog accounts on instagram do not have a central theme around \
 			their posts, but this account seems to unintentionally have a lot of brown and \
 			gold thanks to Gaku and Rinrin's fur!");
+
+		setTimeout(function() {
+			$("#preview-container").css("background-image", "url('assets/img/gaku_1_crop.png')");
+		}, 500);
 	}
 
 	$(".mid-button").click(function() {
