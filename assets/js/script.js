@@ -275,7 +275,7 @@ $(document).ready(function() {
 		$("#easter-egg").fadeIn(1000);
 		setTimeout(function() {
 			$("#easter-egg").fadeOut(500);
-		}, 2500);
+		}, 2000);
 	})
 
 });
