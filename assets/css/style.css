@@ -210,6 +210,14 @@ a:visited {
 	height: 12.5vh;
 	width: 12.5vh;
 	background-color: blue;
+	border: solid 5px #ff471a;
+}
+
+.pfp {
+	background-image: url("../img/aco_pfp.jpg");
+	border-radius: 100px;
+	height: 100%;
+	background-size: cover;
 }
 
 .profile-text {
@@ -282,7 +290,7 @@ a:visited {
 .img-holder {
 	position: relative;
 	margin: 0 auto;
-	width: 80%;
+	width: 83%;
 	top: 15%;
 	height: 100%;
 }
@@ -293,9 +301,30 @@ a:visited {
 	height: 10vw;
 	width: 10vw;
 	border-radius: 300px;
-	background-color: blue;
 	margin-right: 5%;
 	margin-left: 5%;
+	border: solid 3px #ff471a;
+}
+
+.first {
+	height: 100%;
+	background-image: url("../img/aco_pfp.jpg");
+	border-radius: 300px;
+	background-size: cover;
+}
+
+.second {
+	height: 100%;
+	background-image: url("../img/aco_pfp.jpg");
+	border-radius: 300px;
+	background-size: cover;
+}
+
+.third {
+	height: 100%;
+	background-image: url("../img/aco_pfp.jpg");
+	border-radius: 300px;
+	background-size: cover;
 }
 
 /*--------------------------ABOUT--------------------------*/
