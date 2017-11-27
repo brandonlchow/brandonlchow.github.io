@@ -7,12 +7,44 @@ $(document).ready(function() {
 	$(".mid-button").hover(function() {
 		if ($(this).is('#aco')) {
 			$("#preview-container").css("background-image", "url('assets/img/aco_1_crop.png')");
+			$("#description").addClass("aco");
+			if ($("#description").hasClass("maru")) {
+				$("#description").removeClass("maru");
+			} else if ($("#description").hasClass("kotetsu")) {
+				$("#description").removeClass("kotetsu");
+			} else if ($("#description").hasClass("gaku")) {
+				$("#description").removeClass("gaku");
+			}
 		} else if ($(this).is('#maru')) {
 			$("#preview-container").css("background-image", "url('assets/img/maru_1_crop.png')");
+			if ($("#description").hasClass("aco")) {
+				$("#description").removeClass("aco");
+			} else if ($("#description").hasClass("kotetsu")) {
+				$("#description").removeClass("kotetsu");
+			} else if ($("#description").hasClass("gaku")) {
+				$("#description").removeClass("gaku");
+			}
+			$("#description").addClass("maru");
 		} else if ($(this).is('#kotetsu')) {
 			$("#preview-container").css("background-image", "url('assets/img/kotetsu_1_crop.jpg')");
+			if ($("#description").hasClass("aco")) {
+				$("#description").removeClass("aco");
+			} else if ($("#description").hasClass("maru")) {
+				$("#description").removeClass("maru");
+			} else if ($("#description").hasClass("gaku")) {
+				$("#description").removeClass("gaku");
+			}
+			$("#description").addClass("kotetsu");
 		} else if ($(this).is('#gaku')) {
 			$("#preview-container").css("background-image", "url('assets/img/gaku_1_crop.png')");
+			if ($("#description").hasClass("maru")) {
+				$("#description").removeClass("maru");
+			} else if ($("#description").hasClass("kotetsu")) {
+				$("#description").removeClass("kotetsu");
+			} else if ($("#description").hasClass("aco")) {
+				$("#description").removeClass("aco");
+			}
+			$("#description").addClass("gaku");
 		}
 	});
 
@@ -215,6 +247,22 @@ $(document).ready(function() {
 			transition_out();
 		} else {
 			transition_in();
+			if ($("#description").hasClass('aco')) {
+				aco();
+				$("#description").addClass("aco");
+			} else if ($("#description").hasClass('maru')) {
+				maru();
+				$("#description").addClass("maru");
+			} else if ($("#description").hasClass('kotetsu')) {
+				kotetsu();
+				$("#description").addClass("kotetsu");
+			} else if ($("#description").hasClass('gaku')) {
+				gaku();
+				$("#description").addClass("gaku");
+			} else {
+				aco();
+				$("#description").addClass("aco");
+			}
 		}
 	});
 
