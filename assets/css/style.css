@@ -211,6 +211,13 @@ a:visited {
 	width: 12.5vh;
 	background-color: blue;
 	border: solid 5px #ff471a;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.profile-pic:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
 }
 
 .pfp {
@@ -224,6 +231,7 @@ a:visited {
 	position: relative;
 	display: inline-block;
 	left: 6%;
+	cursor: pointer;
 }
 
 .profile-name {
@@ -233,6 +241,14 @@ a:visited {
 	position: relative;
 	display: inline-block;
 	color: #ff3200;
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
+.profile-name:hover {
+	opacity: 1;
+	transition: 0.3s;
+	transform: scale(1.1);
 }
 
 .profile-handle {
@@ -241,7 +257,14 @@ a:visited {
 	letter-spacing: 3px;
 	position: relative;
 	display: block;
-	opacity: 0.85;	
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
+.profile-handle:hover {
+	opacity: 1;
+	transition: 0.3s;
+	transform: scale(1.1);
 }
 
 .quote {
@@ -261,7 +284,7 @@ a:visited {
 
 .description-text {
 	position: relative;
-	height: 28%;
+	height: 33%;
 	width: 100%;
 	top: 5%;
 	/*background-color: grey;*/
@@ -273,7 +296,7 @@ a:visited {
 	padding-bottom: 1.5vh;
 	line-height: 200%;
 	position: relative;
-	font-size: 1.8vmin;
+	font-size: 1.9vmin;
 	letter-spacing: 1px;
 	font-family: 'Raleway', sans-serif;
 	/*background-color: grey;*/
@@ -304,6 +327,15 @@ a:visited {
 	margin-right: 5%;
 	margin-left: 5%;
 	border: solid 3px #ff471a;
+	cursor: pointer;
+	opacity: 0.9;
+	transition: 0.4s;
+}
+
+.description-img:hover {
+	opacity: 1;
+	transform: scale(1.1);
+	transition: 0.4s;
 }
 
 .first {
