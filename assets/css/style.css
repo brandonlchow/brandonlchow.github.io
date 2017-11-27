@@ -68,8 +68,15 @@ body {
 	height: 40px;
 	width: 30%;
 	transform: translate(29%, 130%);
+	-webkit-transform: translate(29%, 130%);
+	-moz-transform: translate(29%, 130%);
+	-ms-transform: translate(29%, 130%);
+	-o-transform: translate(29%, 130%);
 	margin: 5% 5% 5% 5%;
 	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
 }
 
 .mid-button:hover {
@@ -78,6 +85,9 @@ body {
 	background-color: #ff471a;
 	opacity: 0.7;
 	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
 	cursor: pointer;
 }
 
@@ -111,6 +121,9 @@ body {
 	border-color: #ff471a;
 	margin-left: -1px;
 	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
 }
 
 .brow-button:hover {
@@ -119,6 +132,9 @@ body {
 	background-color: #ff471a;
 	opacity: 0.7;
 	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
 	cursor: pointer;
 }
 
@@ -128,7 +144,6 @@ body {
 	bottom: 30%;
 	height: 75px;
 	opacity: 0.9;
-	/*background-color: black;*/
 	left: 40%;
 }
 
@@ -151,6 +166,9 @@ a:visited {
 	background-color: #f4f4f4;
 	cursor: pointer;
 	transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
 	transition-timing-function: ease-in-out;
 	transition-delay: 0.1s;	
 }
@@ -159,6 +177,9 @@ a:visited {
 	opacity: 0.95;
 	height: 100%;
 	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
 	background-image: url("../img/aco_1_crop.png");
 	background-size: cover;
 }
@@ -166,11 +187,21 @@ a:visited {
 #preview-container:hover {
 	opacity: 1;
 	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
 }
 
 .desc {
 	transform: translateX(-123%);
+	-webkit-transform: translateX(-123%);
+	-moz-transform: translateX(-123%);
+	-ms-transform: translateX(-123%);
+	-o-transform:translateX(-123%);
 	transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
 	transition-timing-function: ease-in-out;
 	transition-delay: 0.1s;
 }
@@ -182,10 +213,11 @@ a:visited {
 	height: 100%;
 	position: relative;
 	right: -44.65%;
-	/*float: right;*/
-	/*display: inline-block;*/
 	transform: translateY(100%);
-	/*background-color: black;*/
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	-o-transform:translateY(100%);
 	animation: slideUp 0.6s ease-in-out 0.45s forwards;
 }
 
@@ -193,6 +225,10 @@ a:visited {
 	from {
 	} to {
 		transform: translateY(0%);
+		-webkit-transform: translateY(0%);
+		-moz-transform: translateY(0%);
+		-ms-transform: translateY(0%);
+		-o-transform:translateY(0%);
 	}
 }
 
@@ -207,8 +243,6 @@ a:visited {
 	height: 15%;
 	width: height;
 	top: 5%;
-	/*background-color: grey;*/
-	/*opacity: 0.5;*/
 }
 
 .profile-pic {
@@ -222,11 +256,21 @@ a:visited {
 	border: solid 5px #ff471a;
 	cursor: pointer;
 	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
 }
 
 .profile-pic:hover {
 	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform:scale(1.1);
 	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
 }
 
 .pfp {
@@ -252,12 +296,22 @@ a:visited {
 	color: #ff3200;
 	opacity: 0.8;
 	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
 }
 
 .profile-name:hover {
 	opacity: 1;
 	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
 	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform:scale(1.1);
 }
 
 .profile-handle {
@@ -268,12 +322,23 @@ a:visited {
 	display: block;
 	opacity: 0.8;
 	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
 }
 
 .profile-handle:hover {
 	opacity: 1;
 	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
 	transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform:scale(1.1);
 }
 
 .quote {
@@ -339,12 +404,22 @@ a:visited {
 	cursor: pointer;
 	opacity: 0.9;
 	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
 }
 
 .description-img:hover {
 	opacity: 1;
 	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform:scale(1.1);
 	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
 }
 
 .first {
@@ -407,13 +482,27 @@ a:visited {
 	max-height: 40px;
 	opacity: 0.7;
 	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-o-transform:scale(0.9);
 	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
 }
 
 .exit:hover {
 	opacity: 1;
 	transform: scale(1);
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform:scale(1);
 	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
 }
 
 #about-header {

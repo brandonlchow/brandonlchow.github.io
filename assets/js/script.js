@@ -59,15 +59,6 @@ $(document).ready(function() {
 		$("#description").fadeOut();
 		$("#preview").removeClass("desc");
 		$("#index").fadeIn();
-		if ($("#description").hasClass("aco")) {
-			$("#description").removeClass("aco");
-		} else if ($("#description").hasClass("maru")) {
-			$("#description").removeClass("maru");
-		} else if ($("#description").hasClass("kotetsu")) {
-			$("#description").removeClass("kotetsu");
-		} else if ($("#description").hasClass("gaku")) {
-			$("#description").removeClass("gaku");
-		}
 	}
 
 	aco = () => {
@@ -318,6 +309,10 @@ $(document).ready(function() {
 	$("#about-exit").click(function() {
 		$("#about").fadeOut();
 	});
+
+	$(".hashtag").click(function() {
+		window.open("https://www.instagram.com/explore/tags/shibainu/?hl=en");
+	})
 
 	$(".contact").click(function() {
 		$("#easter-egg").fadeIn(1000);
