@@ -148,14 +148,14 @@ a:visited {
 #preview-container {
 	opacity: 0.95;
 	height: 100%;
-	transition: 0.3s;
+	transition: 0.4s;
 	background-image: url("../img/aco_1_crop.jpg");
 	background-size: cover;
 }
 
 #preview-container:hover {
 	opacity: 1;
-	transition: 0.3s;
+	transition: 0.4s;
 }
 
 .desc {
@@ -171,18 +171,18 @@ a:visited {
 	width: 56%;
 	height: 100%;
 	position: relative;
-	right: -44.5%;
+	right: -44.65%;
+	/*float: right;*/
+	/*display: inline-block;*/
+	transform: translateY(100%);
 	/*background-color: black;*/
-	animation: slideUp 0.5s ease-in-out 0.1s forwards;
+	animation: slideUp 0.6s ease-in-out 0.45s forwards;
 }
 
 @keyframes slideUp {
 	from {
-		opacity: 0;
-		transform: translateY(100%);
 	} to {
 		transform: translateY(0%);
-		opacity: 1;
 	}
 }
 
@@ -190,6 +190,112 @@ a:visited {
 	position: absolute;
 	top: 20px;
 	right: 30px;
+}
+
+.profile {
+	position: relative;
+	height: 15%;
+	width: height;
+	top: 5%;
+	/*background-color: grey;*/
+	/*opacity: 0.5;*/
+}
+
+.profile-pic {
+	position: relative;
+	display: inline-block;
+	border-radius: 100px;
+	top: 1.4vh;
+	left: 3%;
+	height: 12.5vh;
+	width: 12.5vh;
+	background-color: blue;
+}
+
+.profile-text {
+	position: relative;
+	display: inline-block;
+	left: 6%;
+}
+
+.profile-name {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3.5vw;
+	letter-spacing: 5px;
+	position: relative;
+	display: inline-block;
+	color: #ff3200;
+}
+
+.profile-handle {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 1.5vw;
+	letter-spacing: 3px;
+	position: relative;
+	display: block;
+	opacity: 0.85;	
+}
+
+.quote {
+	position: relative;
+	height: 10%;
+	width: 100%;
+	top: 5%;
+	/*opacity: 0.5;*/
+	font-family: 'Permanent Marker', cursive;
+	font-size: 2.5vw;
+	color: black;
+	opacity: 0.8;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.description-text {
+	position: relative;
+	height: 28%;
+	width: 100%;
+	top: 5%;
+	/*background-color: grey;*/
+	border-top: 10px double #e6d5a8;
+	border-bottom: 10px double #e6d5a8;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-top: 1.5vh;
+	/*padding-bottom: 1.5vh;*/
+	line-height: 200%;
+	position: relative;
+	font-size: 1.9vmin;
+	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif;
+	/*background-color: grey;*/
+}
+
+.description-gallery {
+	position: relative;
+	height: 30%;
+	width: 100%;
+	top: 5%;
+	/*background-color: grey;*/
+}
+
+.img-holder {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	top: 15%;
+	height: 100%;
+}
+
+.description-img {
+	position: relative;
+	display: inline-block;
+	height: 10vw;
+	width: 10vw;
+	border-radius: 300px;
+	background-color: blue;
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
 /*--------------------------ABOUT--------------------------*/
