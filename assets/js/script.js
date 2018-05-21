@@ -314,11 +314,23 @@ $(document).ready(function() {
 		window.open("https://www.instagram.com/explore/tags/shibainu/?hl=en");
 	})
 
-	$(".contact").click(function() {
-		$("#easter-egg").fadeIn(1000);
-		setTimeout(function() {
-			$("#easter-egg").fadeOut(500);
-		}, 2000);
+/*--------------CONTACT--------------*/
+
+	$(".contact-button").click(function() {
+		// $("#easter-egg").fadeIn(1000);
+		// setTimeout(function() {
+		// 	$("#easter-egg").fadeOut(500);
+		// }, 2000);
+		$("#contact").fadeIn()
 	})
+
+	$("#contact-exit").click(function() {
+		$("#contact").fadeOut();
+	});
+
+	$("#contact-shadow").click(function() {
+		$("#contact").fadeOut();
+	});
+
 
 });
