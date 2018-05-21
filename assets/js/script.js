@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 	$(".mid-button").hover(function() {
 		if ($(this).is('#aco')) {
-			$("#preview-container").css("background-image", "url('assets/img/aco_1_crop.png')");
+			$("#preview-container").css("background-image", "url('assets/img/aco_1_crop.jpg')");
 			$("#description").addClass("aco");
 			if ($("#description").hasClass("maru")) {
 				$("#description").removeClass("maru");
@@ -16,7 +16,7 @@ $(document).ready(function() {
 				$("#description").removeClass("gaku");
 			}
 		} else if ($(this).is('#maru')) {
-			$("#preview-container").css("background-image", "url('assets/img/maru_1_crop.png')");
+			$("#preview-container").css("background-image", "url('assets/img/maru_1_crop.jpg')");
 			if ($("#description").hasClass("aco")) {
 				$("#description").removeClass("aco");
 			} else if ($("#description").hasClass("kotetsu")) {
@@ -36,7 +36,7 @@ $(document).ready(function() {
 			}
 			$("#description").addClass("kotetsu");
 		} else if ($(this).is('#gaku')) {
-			$("#preview-container").css("background-image", "url('assets/img/gaku_1_crop.png')");
+			$("#preview-container").css("background-image", "url('assets/img/gaku_1_crop.jpg')");
 			if ($("#description").hasClass("maru")) {
 				$("#description").removeClass("maru");
 			} else if ($("#description").hasClass("kotetsu")) {
@@ -63,9 +63,9 @@ $(document).ready(function() {
 
 	aco = () => {
 		$(".pfp").css("background-image", "url('assets/img/aco_pfp.jpg')");
-		$(".first").css("background-image", "url('assets/img/aco_2_crop.png')");
-		$(".second").css("background-image", "url('assets/img/aco_3_crop.png')");
-		$(".third").css("background-image", "url('assets/img/aco_4_crop.png')");
+		$(".first").css("background-image", "url('assets/img/aco_2_crop.jpg')");
+		$(".second").css("background-image", "url('assets/img/aco_3_crop.jpg')");
+		$(".third").css("background-image", "url('assets/img/aco_4_crop.jpg')");
 		$(".profile-name").text("Aco");
 		
 		$(".profile-handle").text("@acoshiba");
@@ -96,16 +96,16 @@ $(document).ready(function() {
 		 Brandon's favorite shiba inu. To this day, he is still waiting for \
 		 Aco's bork reveal.");
 		setTimeout(function() {
-			$("#preview-container").css("background-image", "url('assets/img/aco_1_crop.png')");
+			$("#preview-container").css("background-image", "url('assets/img/aco_1_crop.jpg')");
 		}, 500);
 		
 	}
 
 	maru = () => {
 		$(".pfp").css("background-image", "url('assets/img/maru_pfp.jpg')");
-		$(".first").css("background-image", "url('assets/img/maru_2_crop.png')");
-		$(".second").css("background-image", "url('assets/img/maru_3_crop.png')");
-		$(".third").css("background-image", "url('assets/img/maru_4_crop.png')");
+		$(".first").css("background-image", "url('assets/img/maru_2_crop.jpg')");
+		$(".second").css("background-image", "url('assets/img/maru_3_crop.jpg')");
+		$(".third").css("background-image", "url('assets/img/maru_4_crop.jpg')");
 		$(".profile-name").text("Maru");
 		$(".profile-handle").text("@marutaro");
 		$(".quote").text('"The smiliest dog in Japan"');
@@ -135,7 +135,7 @@ $(document).ready(function() {
 			treats, and beautiful surroundings.");
 
 		setTimeout(function() {
-			$("#preview-container").css("background-image", "url('assets/img/maru_1_crop.png')");
+			$("#preview-container").css("background-image", "url('assets/img/maru_1_crop.jpg')");
 		}, 500);
 	}
 
@@ -143,9 +143,9 @@ $(document).ready(function() {
 
 	kotetsu = () => {
 		$(".pfp").css("background-image", "url('assets/img/kotetsu_pfp.jpg')");
-		$(".first").css("background-image", "url('assets/img/kotetsu_2_crop.png')");
-		$(".second").css("background-image", "url('assets/img/kotetsu_3_crop.png')");
-		$(".third").css("background-image", "url('assets/img/kotetsu_4_crop.png')");
+		$(".first").css("background-image", "url('assets/img/kotetsu_2_crop.jpg')");
+		$(".second").css("background-image", "url('assets/img/kotetsu_3_crop.jpg')");
+		$(".third").css("background-image", "url('assets/img/kotetsu_4_crop.jpg')");
 		$(".profile-name").text("Kotetsu");
 		$(".profile-handle").text("@ganchi_with_kotetsu");
 		$(".quote").text('"It\'s so ugly that it\'s cute!"');
@@ -181,9 +181,9 @@ $(document).ready(function() {
 
 	gaku = () => {
 		$(".pfp").css("background-image", "url('assets/img/gaku_pfp.jpg')");
-		$(".first").css("background-image", "url('assets/img/gaku_2_crop.png')");
-		$(".second").css("background-image", "url('assets/img/gaku_3_crop.png')");
-		$(".third").css("background-image", "url('assets/img/gaku_4_crop.png')");
+		$(".first").css("background-image", "url('assets/img/gaku_2_crop.jpg')");
+		$(".second").css("background-image", "url('assets/img/gaku_3_crop.jpg')");
+		$(".third").css("background-image", "url('assets/img/gaku_4_crop.jpg')");
 		$(".profile-name").text("Gaku");
 		$(".profile-handle").text("@shibainu.gaku");
 		$(".quote").text('"This is the ultimate brotherly love"');
@@ -212,7 +212,7 @@ $(document).ready(function() {
 			gold thanks to Gaku and Rinrin's fur!");
 
 		setTimeout(function() {
-			$("#preview-container").css("background-image", "url('assets/img/gaku_1_crop.png')");
+			$("#preview-container").css("background-image", "url('assets/img/gaku_1_crop.jpg')");
 		}, 500);
 	}
 
