@@ -6,11 +6,12 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="assets/js/script.js"></script>
     </head>
 
     <body style="font-family: Gilroy">
 
-        <section class="landing">
+        <section class="landing" id="top">
           <a id="lndng"></a>
 
           <div class="container vertical-center" style="transform: translateY(-55%);">
@@ -41,15 +42,29 @@
 
         <section class="about" id="abt">
 
-         <!--  <div class="navigation">
-
-          </div> -->
+          <div id="navigation" class="navigation navigation-passive">
+            <a href="#top"><img src="assets/img/logo.svg" class="nav-logo"></a>
+            <img src="assets/img/dot-yellow.png" id="abt-dot" style="position: absolute; left: -28px; bottom: 188px;">
+            <img src="assets/img/dot-yellow.png" id="proj-dot" style="position: absolute; left: -28px; bottom: 108px; visibility: hidden;">
+            <img src="assets/img/dot-yellow.png" id="des-dot" style="position: absolute; left: -28px; bottom: 34.5px; visibility: hidden;">
+            <div class="nav-list">
+              <div class="nav-item">
+                <a href="#abt" class="nav1">about.</a>
+              </div>
+              <div class="nav-item">
+                <a href="#proj" class="nav2">projects.</a>
+              </div>
+              <div class="nav-item">
+                <a href="#des" class="nav3">design.</a>
+              </div>
+            </div>
+          </div>
 
           <div class="container vertical-center" style="padding-top: 5%">
             
             <div class="row" style="padding-top: 5%">
               <div class="col-md-2"></div>
-              <div class="col-md-4 text-center" style="margin-left: -4%;">
+              <div class="col-md-4 text-center" style="margin-left: -2.5%;">
                 <div class="pfp" style="width: 100%;">
                   <img src="assets/img/pfp.jpg" class="shadow-lg" style="width: 90%;">
                   <img src="assets/img/bar.jpg" style="margin-top: 10px; width: 91%">
@@ -90,7 +105,7 @@
         </section>
 
         <seciton class="projects" id="proj">
-          <div class="container vertical-center" style="padding-top: 5%">
+          <div class="container vertical-center">
             <div class="row heading text-center" style="margin-left: 8%">
               <b>projects.</b>
             </div>
