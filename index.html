@@ -1,120 +1,185 @@
 <html>
-<head>
-<title>Shibas of Instagram</title>
-<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Permanent+Marker|Raleway|Roboto" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-</head>
-<body>
-	<div id="index"> <!-- Left Size/Index --> 
-		<div id="index-logo">
-			<div id="logo"><img src="assets/img/logo.png"> </div>
-		</div>
-		<div id="index-main"> <!-- Main section -->
-			<div class="mid-button" id="aco"><!-- Button -->@acoshiba</div>
-			<div class="mid-button" id="maru"><!-- Button -->@marutaro</div>
-			<div class="mid-button" id="kotetsu"><!-- Button -->@ganchi_with_kotetsu</div>
-			<div class="mid-button" id="gaku"><!-- Button -->@shibainu.gaku</div>
-		</div>
-		<div id="bottom-buttons"> <!-- Bottom Buttons -->
-			<div id="bottom-button-holder">
-				<div class="brow-button" id="about-button"><!-- Button -->About</div>
-				<div class="brow-button contact-button"><!-- Button -->Contact</div>
-				<div class="brow-button hashtag"><!-- Button -->#shibainu</div>
-			</div>
-		</div>
-		<div id="easter-egg"><img src="assets/img/sticker_4.png"></div>
-	</div>
+    <head>
+        <title>Brandon Chow</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-	<div id="preview"> <!-- Slideshow/pictures -->
-		<div id="preview-container"> <!-- Image Container --></div>
-		<div class="preview-text"> <!-- Name, Quote --> </div>
-	</div>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
 
-	<div id="description" class="aco" style="display: none;"> <!-- Description -->
-		<!-- <div id="back-button">Back Button</div> -->
-		<img src="assets/img/exit.jpg" id="description-exit" class="exit">
-		<div class="profile"> <!-- Name/Profile Plate -->
-			<div class="profile-pic"> 
-				<div class="pfp"><!-- Image --> </div>
-			</div>
-			<div class="profile-text type">
-				<div class="profile-name"> <!-- Name --> This is a Test</div>
-				<div class="profile-handle"> <!-- Handle --> @LoremIpsum</div>
-			</div>
-		</div>
-		<div class="quote type"><!-- Quote -->"He's so ugly it's cute"</div>
-		<div class="description-text"><!-- Text -->
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dolor eu felis viverra suscipit. Aenean at neque ac risus consequat elementum a eget mi. Ut vitae fermentum risus. Ut nec dolor tellus. Maecenas ultrices pellentesque nibh, consequat consequat quam hendrerit at. Aliquam quis tortor metus. Ut vitae felis nulla. Praesent augue nunc, sagittis eget lorem ut, consectetur lacinia ligula. Aliquam nec blandit nunc, quis placerat urna. Morbi quis massa semper justo tempor pellentesque id et sem.
-		</div>
-		<div class="description-gallery"> <!-- Gallery -->
-			<div class="img-holder">
-				<div class="description-img 1st">
-					<!-- Image -->
-					<div class="first"></div>		
-				</div>
-				<div class="description-img 2nd">
-					<!-- Image -->
-					<div class="second"></div>		
-				</div>
-				<div class="description-img 3rd">
-					<!-- Image -->
-					<div class="third"></div>		
-				</div>
-			</div>
-		</div>
-	</div>
+    <body style="font-family: Gilroy">
 
-	<div id="about"> <!-- About -->
-		<div id="shadow"></div>
-		<div id="pop-up"> <!-- Container -->
-				<div id="about-header"> <!-- Header --> <b>About</b> </div>
-				<img src="assets/img/sticker_3.png" id="about-img1"> <!-- Image -->	
-				<div id="about-text"> <!-- Text -->
-					<br/>
-					Brandon really likes Shiba Inus. He follows too many of them on Instagram. So he decided to make a nice page to showcase some of his favorite Instagram doges and some other noteworthy woofers. 
-					<br/>
-					<br/>
-					<br/>
-					According to Wikipedia, "The Shiba Inu (柴犬) is the smallest of the six original and distinct spitz breeds of dog from Japan.
-					A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. It looks similar to and is often mistaken for other Japanese dog breeds like the Akita Inu or Hokkaido, but the Shiba Inu is a different breed with a distinct blood line, temperament and smaller size than other Japanese dog breeds."
-				</div>
-				<img src="assets/img/sticker_2.png" id="about-img2"> <!-- Image -->	
-				<div id="about-sig">
-					<i>
-						<br/><br/>
-						All assets and materials used on this site belong to their rightful owners.
-						<br/><br/>
-						Sticker credits belong to Aiko Kuninoi.
-					</i>
-				</div>
-				<img src="assets/img/exit.jpg" id="about-exit" class="exit"> <!-- Exit button -->
-		</div>
-	</div>
+        <section class="landing">
+          <a id="lndng"></a>
 
-	<div id="contact"> <!-- Contact -->
-		<div id="contact-shadow"></div>
-		<div id="contact-pop-up"> <!-- Container -->
-			<div id="contact-header"> <!-- Header --> <b>Contact</b> </div>
-			<div id="about-text"> <!-- Text -->
-					<br/>
-					<b>Email</b>: <a href="mailto:brandonchow@berkeley.edu">brandonchow@berkeley.edu</a>
-					<br/>
-					<br/>
-					<a href="/assets/resume.pdf"><b>Resume</b></a>
-				</div>
-				<img src="assets/img/exit.jpg" id="contact-exit" class="exit"> <!-- Exit button -->
-		</div>
-	</div>
+          <div class="container vertical-center" style="transform: translateY(-55%);">
+            <div class="row">
+              <div class="col-md-12 text-center landing-img" style="margin-left: 0.75rem;">
+                <img src="assets/img/front.png">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center" style="font-size: 2rem; margin-top: 2.75rem;" >
+                  computer science • berkeley • one dancey bean
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center" style="margin-top: 2.5rem;">
+                  <img src="assets/img/logo-yellow.svg" width="95px" height="56.244px"" />
+              </div>
+            </div>
+          </div>
 
-	<div id="preload">
-   		<img src="assets/img/aco_1_crop.jpg" width="1" height="1">
-   		<img src="assets/img/maru_1_crop.jpg" width="1" height="1">
-   		<img src="assets/img/gaku_1_crop.jpg" width="1" height="1">
-   		<img src="assets/img/kotetsu_1_crop.jpg" width="1" height="1">
-	</div>
-</body>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
-<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
-<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+          <a href="#abt">
+            <div class="landing-indicator"></div>
+          </a>
+
+        </section>
+
+        <section class="about" id="abt">
+
+          <div class="navigation">
+
+          </div>
+
+          <div class="container vertical-center" style="padding-top: 5%">
+            
+            <div class="row" style="padding-top: 5%">
+              <div class="col-md-2"></div>
+              <div class="col-md-4 text-center" style="margin-left: -4%;">
+                <div class="pfp" style="width: 100%;">
+                  <img src="assets/img/pfp.jpg" class="shadow-lg" style="width: 90%;">
+                  <img src="assets/img/bar.jpg" style="margin-top: 10px; width: 91%">
+                </div>
+              </div>
+              <div class="col-md-6 text-right" style="height: 80%">
+                <div class="heading">
+                  <b>about.</b>
+                </div>
+                <div class="divider" style="float: right;"></div>
+                <div class="about-body" style="float: right;">
+                  Hello! I’m a fourth year student at UC Berkeley pursuing a degree in Computer Science. 
+                  <br>
+                  <br>
+                  At Berkeley, I have had positions as the webmaster and secretary for the Chinese Student Association and have worked on front-end at the growing startup BearX.
+                  <br>
+                  <br>
+                  Hobby-wise, I’m a sucker for music and love to do hip-hop and urban dance. I also love shiba inus and have recently been spending a lot of time looking at mechanical keyboards. 
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <!-- <div class="status">
+                    <b>Currently looking for full time/new grad software engineering positions starting Summer 2019!</b>
+                  </div> -->
+                </div>
+                <div class="heading" style="font-size: 4rem">
+                  <b>contact</b>
+                </div>
+                <div style="margin-top: 10px;">
+                  <img src="assets/img/email.png" class="contact-button">
+                  <img src="assets/img/git.png" class="contact-button">
+                  <img src="assets/img/resume.png" class="contact-button">
+                </div>
+              </div>
+            </div>
+
+        </section>
+
+        <seciton class="projects" id="proj">
+          <div class="container vertical-center" style="padding-top: 5%">
+            <div class="row heading text-center">
+              <b>projects.</b>
+            </div>
+            <div class="row" style="padding-top: 5%">
+              <div class="col-md-1"></div>
+              <a href="shibas_of_instagram/index.html" target="_blank">
+                <div class="col-md-5 text-center proj-container" style="height: 60%;">
+                  <div style="height: 45%; width: 100%; margin-top: 1%">
+                    <img src="assets/img/shiba1.jpg" style="height: 95%; max-width: 100%;">
+                  </div>
+                  <div style="height: 45%; width: 100%; margin-top: 2%">
+                    <img src="assets/img/shiba2.jpg" style="height: 95%; max-width: 100%;">
+                  </div>
+                  <div class="text-center heading" style="font-size: 2.5rem; margin-top: 1%;">shibas of instagram</div>
+                </div>
+              </a>
+              <div class="col-md-1" style="width: 4%; height: 60%; margin-left: -1%;">
+                <img src="assets/img/project-divider.png" style="height: 100%;">
+              </div>
+              <div class="col-md-5">
+                <div class="row proj-container" style="height: 28.5%;">
+                  <div style="height: 82%; width: 100%; margin-top: 1%">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4 text-center" style="margin-right: 1.5%; margin-left: -3%;">
+                      <img src="assets/img/rep1.jpg" style="height: 100%;">
+                    </div>
+                    <div class="col-md-4 text-center" style="margin-left: 1.5%">
+                      <img src="assets/img/rep2.jpg" style="height: 100%;">
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+                  <div class="text-center heading" style="font-size: 2.5rem; margin-top: 1%;">represent!</div>
+                </div>
+                <div class="row" style="height: 3%">
+                  <div class="vertical-center">
+                    <div style="background-color: #A6A6A6; height: 1.5px; width: 100%;"></div>
+                  </div>
+                </div>
+                <div class="row proj-container" style="height: 28.5%;">
+                  <div style="height: 82%; width: 100%; margin-top: 1%">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4 text-center" style="margin-right: 1.5%; margin-left: -3%;">
+                      <img src="assets/img/cc1.jpg" style="height: 100%;">
+                    </div>
+                    <div class="col-md-4 text-center" style="margin-left: 1.5%">
+                      <img src="assets/img/cc2.jpg" style="height: 100%;">
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+                  <div class="text-center heading" style="font-size: 2.5rem; margin-top: 1%;">connecting communities</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </seciton>
+
+        <section  class="design" id="des">
+          <div class="container vertical-center">
+            <div class="row" style="margin-left: 8%; height: 30%;">
+              <div class="col-md-6 text-center">
+                <div class="des-container">
+                  <img src="assets/img/lovescream1.jpg" class="des-img" style="transform: translateY(-15%);">
+                </div>
+              </div>
+              <div class="col-md-6 text-center">
+                <div class="des-container">
+                  <img src="assets/img/anime-poster.jpg" class="des-img" style="transform: translateY(-10%);">
+                </div>
+              </div>
+            </div>
+            <div class="row" style="margin-left: 8%; margin-top: 6%; height: 30%;">
+              <div class="col-md-6 text-center">
+                <div class="des-container">
+                  <img src="assets/img/your-name.jpg" class="des-img">
+                </div>
+              </div>
+              <div class="col-md-6 text-center">
+                <div class="des-container">
+                  <img src="assets/img/banksy.jpg" class="des-img" style="transform: translateY(-25%);">
+                </div>
+              </div>
+            </div>
+            <div class="row" style="height: 10%;">
+              <div class="vertical-center">
+                <div class="col-md-12 text-right">
+                  <img src="assets/img/design-header.png" style="height: 60%;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    </body>
 </html>
