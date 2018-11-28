@@ -47,30 +47,6 @@ function navPosition() {
     	$('.nav2').removeAttr('style');
     	$('.nav3').removeAttr('style');
     }
-    // if (Utils.isElementInView($('#projects'), false)) {
-    //     var active_id = $('.active-button').attr('id');
-    //     if (Utils.isElementInView($('#intro-container'), false)) {
-    //         if (active_id != 'intro-button') {
-    //             $('#' + active_id).removeClass('active-button');
-    //             $('#intro-button').addClass('active-button');
-    //         }
-    //     } else if (Utils.isElementInView($('#gpctrl-container'), false)) {
-    //         if (active_id != 'gpctrl-button') {
-    //             $('#' + active_id).removeClass('active-button');
-    //             $('#gpctrl-button').addClass('active-button');
-    //         }
-    //     } else if (Utils.isElementInView($('#azlyrics-container'), false)) {
-    //         if (active_id != 'azlyrics-button') {
-    //             $('#' + active_id).removeClass('active-button');
-    //             $('#azlyrics-button').addClass('active-button');
-    //         }
-    //     } else if (Utils.isElementInView($('#moss-container'), false)) {
-    //         if (active_id != 'moss-button') {
-    //             $('#' + active_id).removeClass('active-button');
-    //             $('#moss-button').addClass('active-button');
-    //         }
-    //     }
-    // }
 }
 
 function scrollListener() {
