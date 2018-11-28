@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "Gilroy";
 	src: url('../fonts/gilroy-light.otf');
-} 
+}
 
 @font-face {
 	font-family: "GilroyBold";
@@ -134,6 +134,53 @@
 	transition: 0.4s;
 }
 
+.proj-item {
+	width: 100%; 
+	padding: 1rem 1.5rem 0.3rem 1.5rem; 
+	background-color: rgb(25, 25, 25, 0.9); 
+	border-radius: 5px;
+	transition: 0.4s;
+	color: #F7D331;
+	border-left: 8px solid #F7D331
+}
+
+.proj-item:hover {
+	background-color: rgb(247, 211, 49, 0.9);
+	transition: 0.4s;
+	color: black;
+}
+
+.proj-item:hover .proj-img {
+	border: 2px solid #555555;
+	transition: 0.4s;
+} 
+
+.proj-item2 {
+	padding: 1rem 1.5rem 1rem 1.5rem; 
+	background-color: rgb(25, 25, 25, 0.9); 
+	border-radius: 5px;
+	transition: 0.4s;
+	color: #F7D331;
+	border-left: 8px solid #F7D331
+}
+
+.proj-item2:hover {
+	background-color: rgb(247, 211, 49, 0.9);
+	transition: 0.4s;
+	color: black;
+}
+
+.proj-item2:hover .proj-img {
+	border: 2px solid #555555;
+	transition: 0.4s;
+} 
+
+.proj-img {
+	border: 2px solid #181818; 
+	border-radius: 2px;
+	transition: 0.4s;
+}
+
 .proj-container:hover {
 	opacity: 1;
 	transition: 0.4s;
@@ -160,8 +207,18 @@
 	cursor: pointer;
 }
 
+.des-container:hover .des-img {
+	background-color: #F7D331;
+	transition: 0.4s;
+}
+
 .des-img {
 	width: 85%;
 	min-height: 100%; 
 	object-fit: cover;
+	border-left: 8px solid #F7D331;
+	border-radius: 5px;
+	padding-left: 1rem;
+	background-color: rgb(25, 25, 25, 0.9);
+	transition: 0.4s;
 }
