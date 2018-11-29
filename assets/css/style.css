@@ -35,10 +35,6 @@ a:hover {
 	.hide {
 		display: none;
 	}
-}
-
-/*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
 
 	.vertical-center {
 		position: relative;
@@ -174,7 +170,11 @@ a:hover {
 	}
 
 	.pfp {
-		margin: 3rem 0 0 0rem;
+		display: none;
+	}
+
+	.proj-divider {
+		display: none;
 	}
 
 	.divider {
@@ -183,6 +183,10 @@ a:hover {
 		height: 1.5px;
 		background-color: #A6A6A6; 
 		margin-bottom: 1.25rem;
+	}
+
+	.contact {
+		margin-top: 50%;
 	}
 
 	.contact-button {
@@ -348,6 +352,22 @@ a:hover {
 		width: 90%;
 		object-fit: cover;
 		border: 2px solid #181818;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.pfp {
+		display: initial;
+		margin: 3rem 0 0 0rem;
+	}
+
+	.contact {
+		margin-top: 70%
+	}
+
+	.proj-divider {
+		display: initial;
 	}
 }
 
