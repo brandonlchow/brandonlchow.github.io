@@ -71,7 +71,7 @@ $(document).ready(function() {
 				</div>");
 
 			$('#hor2').html(
-				'<div style=\"color: #FDFDFD; font-size: 3vh\"><b>lovescream.</b></div>\
+				'<div style=\"color: #FDFDFD; font-size: 3vh\"><b>\"lovescream.\"</b></div>\
                  A reimagining of the cover of Korean hip-hop group Epik high\'s album, \"Lovescream,\" paired with a lyric poster\
                  for title track \"1 Minute 1 Second\"');
 		} else if ($(this).hasClass('1')) {
@@ -92,7 +92,7 @@ $(document).ready(function() {
                     <img src=\"assets/img/your-name.jpg\" class=\"viewpreview\">\
                   </div>'
 				)
-			$('#hor2').html('<div style=\"color: #FDFDFD; font-size: 3vh\"><b>your name.</b></div>\
+			$('#hor2').html('<div style=\"color: #FDFDFD; font-size: 3vh\"><b>\"your name.\"</b></div>\
                  A low poly image inspired by the movie \"Your Name.\" Original image found <a href=\"https://i.imgur.com/vnXWA2K.png\" target=\'_blank\'>here</a>')
 		} else if ($(this).hasClass('3')) {
 			$('#verticalview').show();
