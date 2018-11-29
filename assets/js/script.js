@@ -117,6 +117,7 @@ $(document).ready(function() {
 
 	calcRegion();
     navPosition();
+    mobileListener();
     $(window).scroll(function() {
         navPosition();
     });
