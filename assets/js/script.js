@@ -56,7 +56,7 @@ $(document).ready(function() {
                     <img src=\"assets/img/cc2.jpg\" class=\"viewpreview\">\
                   </div>'
 				)
-			$('#hor2').html('<div style=\"color: #FDFDFD; font-size: 3rem\"><b>connecting communities [fall 2018 in progress]</b></div>\
+			$('#hor2').html('<div style=\"color: #FDFDFD; font-size: 3rem\"><b>connecting communities [fall 2018]</b></div>\
                  A HCI course group project meant to help provide resources and connections to parents and caretakers of people affected \
                  with ASD in the Bay Area.')
 		}
