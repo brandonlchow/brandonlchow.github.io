@@ -11,7 +11,7 @@ $(document).ready(function() {
 	}
 
 	new TypeIt('#description', {
-	  strings: ["", "one dancey bean", "music addict", "appreciator of design", "local anime/game fan", "believes white is a color", "software engineer"],
+	  strings: ["one dancey bean", "music addict", "appreciator of design", "local anime/game fan", "believes white is a color", "software engineer"],
 	  speed: 45,
 	  deleteSpeed: 20,
 	  breakLines: false,
