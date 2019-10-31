@@ -10,6 +10,21 @@ $(document).ready(function() {
 	    isMobile = true;
 	}
 
+	new TypeIt('#description', {
+	  strings: ["", "one dancey bean", "music addict", "appreciator of design", "local anime/game fan", "believes white is a color", "software engineer"],
+	  speed: 45,
+	  deleteSpeed: 20,
+	  breakLines: false,
+	  lifeLike: false,
+	  loop: true,
+	  nextStringDelay: [1000, 650],
+	  startDelete: true,
+	  startDelay: 900,
+	  waitUntilVisible: true,
+	  cursor: false
+	})
+	.go();
+
 	$('.viewbg').click(function() {
 		$('.view').fadeOut(250);
 	});
@@ -71,10 +86,10 @@ $(document).ready(function() {
 
 			$('#hor1').html(
 				"<div class=\"col-md-7 text-center vertical-center\" style=\"height: 80%;\">\
-				<img src=\"assets/img/lovescream1.jpg\" class=\"viewpreview\">\
+				<a href=\"assets/img/lovescream1.jpg\" target=\"_blank\"><img src=\"assets/img/lovescream1.jpg\" class=\"viewpreview\"></a>\
 				</div>\
 				<div class=\"col-md-5 text-center vertical-center\" style=\"height: 80%;\">\
-				<img src=\"assets/img/lovescream2.jpg\" class=\"viewpreview\">\
+				<a href=\"assets/img/lovescream2.jpg\" target=\"_blank\"><img src=\"assets/img/lovescream2.jpg\" class=\"viewpreview\"></a>\
 				</div>");
 
 			$('#hor2').html(
@@ -86,7 +101,7 @@ $(document).ready(function() {
 			$('#horizontalview').hide();
 
 			$('#ver1').html(
-				'<img src=\"assets/img/anime-poster.jpg\" class=\"viewpreviewver vertical-center\">');
+				'<a href=\"assets/img/anime-poster.jpg\" target=\"_blank\"><img src=\"assets/img/anime-poster.jpg\" class=\"viewpreviewver vertical-center\"></a>');
 			$('#ver2').html(
 				'<div style=\"color: #FDFDFD; font-size: 3vh\"><b>\"shelter\"</b></div>\
                     An imaginary poster promotion for an anime-themed EDM concert.');
@@ -96,7 +111,7 @@ $(document).ready(function() {
 
 			$('#hor1').html(
 				'<div class=\"col-md-12 text-center vertical-center\" style=\"height: 80%;\">\
-                    <img src=\"assets/img/your-name.jpg\" class=\"viewpreview\">\
+                    <a href=\"assets/img/your-name.jpg\" target=\"_blank\"><img src=\"assets/img/your-name.jpg\" class=\"viewpreview\"></a>\
                   </div>'
 				)
 			$('#hor2').html('<div style=\"color: #FDFDFD; font-size: 3vh\"><b>\"your name.\"</b></div>\
@@ -106,10 +121,10 @@ $(document).ready(function() {
 			$('#horizontalview').hide();
 
 			$('#ver1').html(
-				'<img src=\"assets/img/banksy.jpg\" class=\"viewpreviewver vertical-center\">');
+				'<a href=\"assets/img/internet.jpg\" target=\"_blank\"><img src=\"assets/img/internet.jpg\" class=\"viewpreviewver vertical-center\"></a>');
 			$('#ver2').html(
-				'<div style=\"color: #FDFDFD; font-size: 3vh\"><b>\"girl with hose balloon\"</b></div>\
-                    A restyling of Banks\'s famous \"Girl with Balloon\" painting in an old-school cartoon, or rubber hose, style drawing.');
+				'<div style=\"color: #FDFDFD; font-size: 3vh\"><b>\"network layers in internet architecture\"</b></div>\
+                    A side project made to help myself study for the internet architecture class I was taking at the time while serving as some Illustrator practice.');
 		}
 
 		$('.view').fadeIn(300);
